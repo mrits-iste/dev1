@@ -77,8 +77,10 @@ nav a:hover::before {
 
 footer {
     text-align: center;
-    color: rgb(82, 76, 76);
+    color: rgb(236, 230, 230);
     font-size: 14px;
+    background: #25303B;
+    padding: 20px;
 }
 
 
