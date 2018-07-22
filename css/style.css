@@ -81,6 +81,7 @@ footer {
     font-size: 14px;
     background: #25303B;
     padding: 20px;
+    box-shadow: 0px 0px 10px 5px grey;
 }
 
 
@@ -242,6 +243,7 @@ footer {
     padding-top: 10px;
     padding-bottom:10px; 
     background: #25303B;
+    box-shadow: 0px 0px 10px 5px grey;
  }
 
  section#timeline {
@@ -393,6 +395,7 @@ footer {
 /* Members */
 #members{
     background-color: #4e9de7; color:white;
+    box-shadow: 0px 0px 10px 5px grey;
 }
 
 #members h1{
