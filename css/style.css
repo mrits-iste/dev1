@@ -238,6 +238,7 @@ footer {
 /* Events Gallery Slider */
 #gallery{
     position: relative;
+    height: 700px;
 }
 
 #gallery h1{
@@ -248,4 +249,28 @@ footer {
 .pictureSlider {
     position: absolute;
     left: 10%;
+    margin-top: 8%;
+    margin-bottom: 20%;
+}
+
+/* Members */
+#members{
+    background-color: #4e9de7; color:white;
+}
+
+#members h1{
+    display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+/* Contact Us*/
+.info{
+    float: right;
+    position: relative;
+    right: 18%;
+}
+
+i{
+    margin-left: 5%;
 }
