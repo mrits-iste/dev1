@@ -8,21 +8,26 @@
 		<link rel="shortcut icon" href="images/favi.png"> 
 		<link rel="stylesheet" type="text/css" href="css/noramlize.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/home_slider.css" />
 		<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
 		<link rel="stylesheet" type="text/css" href="css/custom.css" />
 		<link href="css/timeline.css" rel="stylesheet">
 		<!-- Bootstrap -->
-		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<link href="css/templatemo_style.css" rel="stylesheet">
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.css" />
+		<link rel="stylesheet" type="text/css" href="css/carousel.css"/>
+		<script type="text/javascript" src="js/wow.min.js"></script>
 		<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+		<script>
+			new WOW().init();
+		</script>
 	</head>
 	<body>	
 
@@ -34,9 +39,9 @@
 					<ul class="navigation breadcrumb">
 						<li><a href="#home">Home</a></li>
 						<li><a href="#event-timeline">Events</a></li>
-						<li><a href="#">Gallery</a></li>
-						<li><a href="#">Members</a></li>
-						<li><a href="#">Contact Us</a></li>
+						<li><a href="#gallery">Gallery</a></li>
+						<li><a href="#members">Members</a></li>
+						<li><a href="#contact">Contact Us</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -95,11 +100,10 @@
 
 			</div><!-- /wrapper -->
 
-
 		   <!---------------- Event Timeline ---------------->
 			<div id="event-timeline"> 
 					<section id="timeline">
-							<article>
+							<article class="wow slideInLeft" data-delay="10s">
 							  <div class="inner">
 								<span class="date">
 								  <span class="day">24<sup>th</sup></span>
@@ -110,7 +114,7 @@
 								<p>Welcoming the new team for 2018-2019</p>
 							  </div>
 							</article>
-							<article>
+							<article class="wow slideInRight" data-delay="10s">
 							  <div class="inner">
 								<span class="date">
 								  <span class="day">27<sup>th</sup></span>
@@ -121,7 +125,7 @@
 								<p><b>Round 1: </b> Brainbuzz<br><b>Round 2: </b>Games.com<br><b>Round 3: </b>The Game of Life</p>
 							  </div>
 							</article>
-							<article>
+							<article class="wow slideInLeft" data-delay="10s">
 							  <div class="inner">
 								<span class="date">
 								  <span class="day">23<sup>th</sup> & 24<sup>th</sup></span>
@@ -131,8 +135,8 @@
 								<h2>Technical 2 Days Event </h2>
 								<p><b>1.Triathlon</b><br><b>2.Starchitech</b></p>
 							  </div>
-							</article>
-							<article>
+							</article> 
+							<article class="wow slideInRight" data-delay="10s">
 							  <div class="inner">
 								<span class="date">
 								  <span class="day">1<sup>st</sup></span>
@@ -145,11 +149,36 @@
 							</article>
 						  </section>
 			</div>
-							
-
+			
+			<!-- Gallery -->
+			<div id="gallery">
+					<h1>Our Events Gallery</h1>
+					<div class="pictureSlider poster-main" data-setting='{"width":1000,
+																		   "height":270,
+																		   "posterWidth":640,
+																		   "posterHeight":270,
+																		   "scale":0.8,
+																		   "autoPlay":true,
+																		   "delay":2000,
+																		   "speed":300}'>
+						<div class="poster-btn poster-prev-btn"></div>
+						<ul class="poster-list">
+							<li class="poster-item"><a href="#"><img src="https://unsplash.it/640/270?image=1014" width="100%" height="100%"></a></li>
+							<li class="poster-item"><a href="#"><img src="https://unsplash.it/640/270?image=1013" width="100%" height="100%"></a></li>
+							<li class="poster-item"><a href="#"><img src="https://unsplash.it/640/270?image=1012" width="100%" height="100%"></a></li>
+							<li class="poster-item"><a href="#"><img src="https://unsplash.it/640/270?image=1011" width="100%" height="100%"></a></li>
+							<li class="poster-item"><a href="#"><img src="https://unsplash.it/640/270?image=1010" width="100%" height="100%"></a></li>
+							<li class="poster-item"><a href="#"><img src="https://unsplash.it/640/270?image=1009" width="100%" height="100%"></a></li>
+							<li class="poster-item"><a href="#"><img src="https://unsplash.it/640/270?image=1008" width="100%" height="100%"></a></li>
+							<li class="poster-item"><a href="#"><img src="https://unsplash.it/640/270?image=1007" width="100%" height="100%"></a></li>
+							<li class="poster-item"><a href="#"><img src="https://unsplash.it/640/270?image=1006" width="100%" height="100%"></a></li>
+						</ul>
+						<div class="poster-btn poster-next-btn"></div>
+					</div>
+					</div>
 
 			<div style="height:2000px">
-
+			
 			</div>
 		<footer>
 			<p>&copy; 2018 &bull; Pavan Lal Boro</p>
@@ -160,13 +189,19 @@
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="bootstrap/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/jquery.slicebox.js"></script>
+		<script type="text/javascript" src="js/carousel.js"></script>
+		<script>
+				$(function(){
+					Carousel.init($(".pictureSlider"));
+				});
+				</script>
 		<script type="text/javascript">
 			$(document).ready(function() {
 	
 				setTimeout(function(){
 					$('body').addClass('loaded');
 					$('h1').css('color','#222222');
-				}, 1000);
+				}, 0);
 				
 			});
 			$(function() {
